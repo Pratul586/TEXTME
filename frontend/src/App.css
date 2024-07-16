@@ -1,0 +1,24 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+ 
+.App{
+  min-height: 100vh;
+  display:flex;
+  font-family:Inter;
+  background-image: url('./background.png');
+  background-size:cover;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
