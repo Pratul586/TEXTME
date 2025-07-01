@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import { Container,Box ,Text,Tab,TabList,TabPanel,TabPanels,Tabs} from '@chakra-ui/react'
 import Login from "../components/Authentication/Login.js";
 import Signup from "../components/Authentication/Signup";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom'; 
 const HomePage = () => {
-   const history =useHistory
+   const history = useHistory();  
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("userInfo"));
     
