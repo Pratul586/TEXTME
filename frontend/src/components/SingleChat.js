@@ -28,6 +28,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
   const [typing, setTyping] = useState(false);
   const [istyping, setIsTyping] = useState(false);
   const toast = useToast();
+
   const { selectedChat, setSelectedChat, user, notification, setNotification } =
   ChatState();
 
@@ -40,8 +41,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     },
   };
   
-  
-
 
   const fetchMessages = async () => {
     if (!selectedChat) return;
