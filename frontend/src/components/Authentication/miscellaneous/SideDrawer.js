@@ -144,7 +144,7 @@ function SideDrawer() {
   <Text fontSize="3xl" fontWeight="500">
     TextMe
   </Text>
-  <div display="flex" justifyContent="space-between">
+  <div    >
     <Menu>
       <MenuButton p={1}>
         <NotificationBadge
